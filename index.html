@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Trading Dashboard</title>
     <!-- iOS native app styling meta tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -48,10 +48,9 @@
         }
     </style>
 </head>
-<body class="text-white flex justify-center items-center">
-
+<body class="text-white md:flex md:justify-center md:items-center h-full w-full">
     <!-- Responsive Layout Wrapper (Fills 100% on iPhones, Centers as a premium mock-frame on Computers) -->
-    <div class="w-full h-full md:h-[95vh] max-w-none md:max-w-md bg-[#121b2d] flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-300 md:rounded-3xl md:border md:border-slate-800">
+    <div class="w-full h-screen md:h-[95vh] max-w-none md:max-w-md bg-[#121b2d] flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-300 md:rounded-3xl md:border md:border-slate-800">
         
         <!-- Auth (Login / Register) Screen Overlay -->
         <div id="auth-screen" class="absolute inset-0 bg-[#0b111e] z-50 flex flex-col justify-center items-center p-6">
